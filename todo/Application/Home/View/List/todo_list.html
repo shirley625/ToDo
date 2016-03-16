@@ -1,0 +1,75 @@
+<!-- author xzq -->
+<extend name="Public:frameset" />
+<block name="style">
+    <link href="__PUBLIC__/assets/global/plugins/jquery-modal/jquery-modal.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/assets/pages/styles/todo-list.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/assets/pages/styles/todo-detail.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="page-body">
+    <div class="click-picture">
+        <div class="clear-fix"></div>
+    </div>
+    <div class="click-picture-tip imgAnimation">
+        <span class="left_triangle"></span>
+        <span class="tip-d">点鸡下蛋~</span>
+    </div>
+    <div class="list-search">
+        <div class="list-search-egg" id="list-search-egg">
+            <div class="icon-egg red egg-red" data-level="1"></div>
+            <div class="icon-egg orange egg-orange" data-level="2"></div>
+            <div class="icon-egg blue egg-blue" data-level="3"></div>
+            <div class="icon-egg green egg-green" data-level="4"></div>
+            <div class="search search-no-finish" data-level="" data-finished="0" ><i class="glyphicon glyphicon-remove-circle"></i></div>
+            <div class="search search-finish" data-level="" data-finished="1" ><i class="glyphicon glyphicon-check"></i></div>
+            <div class="search-refresh"><i class="glyphicon glyphicon-refresh"></i></div>
+        </div>
+        <div class="clear-fix"></div>
+        <input type="text" class="list-search-time start-time" placeholder="下蛋始" onfocus="WdatePicker({dateFmt:'yyyy-M-d H:mm:ss'})"/>
+        <input type="text" class="list-search-time end-time" placeholder="下蛋末" onfocus="WdatePicker({dateFmt:'yyyy-M-d H:mm:ss'})"/>
+        <input type="text" class="list-search-time do-start-time" placeholder="孵化始" onfocus="WdatePicker({dateFmt:'yyyy-M-d H:mm:ss'})"/>
+        <input type="text" class="list-search-time do-end-time" placeholder="孵化末" onfocus="WdatePicker({dateFmt:'yyyy-M-d H:mm:ss'})"/>
+        <button type="button" class="list-search-btn btn-go"><i class="glyphicon glyphicon-search"></i></button>
+        <div class="clear-fix"></div>
+        <div class="list-search-category" id="list-search-category"></div>
+        <div class="clear-fix"></div>
+    </div>
+
+    <div class="egg-close"></div>
+    <div class="event-tip">近期任务<marquee class="event-scoll" scrolldelay="2" scrollAmount=2 direction="left" align="middle" width="78%">{$event_tip}</marquee></div>
+    <div class="loading" style="margin-left: 44%;margin-top: 5%;color: #028402;display: none;">Loading...</div>
+    <div class="list-main"></div>
+    <div class="all-page"></div>
+
+    <div class="modal-start">
+        <div class="modal-mask"></div>
+        <div class="modal-main">
+            <div class="modal-box">
+                <button type="button" class="modal-close"><span>x</span></button>
+                <div class="modal-box-title"></div>
+                <div class="modal-box-message"></div>
+                <div class="modal-box-btn">
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<block name="script">
+    <script src="__PUBLIC__/assets/global/plugins/jquery-modal/jquery-modal.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/pages/scripts/todo-list.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/pages/scripts/todo-detail.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/global/plugins/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+</block>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<block name="script-init">
+    <script type="text/javascript">
+            //alert(screen.width);
+        $(document).ready(function(){
+            DoList.init();
+            DoDetail.init();
+        });
+    </script>
+</block>

@@ -1,0 +1,826 @@
+body{
+    font-size:14px;
+}
+.page-body{
+    margin-top:50px;
+}
+.clear-fix{ clear:both}
+.page-body .egg-close{
+    background: url(../img/list/egg-close.jpg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 14%;
+    height: 11%;
+    display: none;
+}
+.page-body .list-tip-style{
+    padding:20px;
+}
+
+
+
+
+
+.btn-input-close:focus, .btn-input-close:hover  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+/*小屏手机*/
+@media screen and (max-width: 253px){
+    .imgAnimation{
+        animation-name: imgAnimation;
+        animation: imgAnimation 2s ease;
+        -webkit-animation: imgAnimation 2s ease;
+        -moz-animation: imgAnimation 2s ease;
+    }
+
+    @-webkit-keyframes imgAnimation {
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+
+    @-moz-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+    .click-picture-tip .tip-d {
+        position: relative;
+        font-size: 20px;
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+        color: #000;
+        background-color: #ffd700;
+        border-radius:7px;
+        padding: 10px;
+    }
+    .left_triangle{
+        height:0px;
+        width:0px;
+        border-width:10px;
+        border-style:solid;
+        border-color:transparent  #FFD700 transparent transparent ;
+        position: absolute;
+        left: -19px;
+        top:3px;
+    }
+    .page-body .click-picture{
+        background : url(../img/list/hen.png) no-repeat;
+        background-size: contain;
+        width: 34%;
+        height: 130px;
+        margin-left: 10px;
+
+    }
+    .page-body .list-input .list-pic{
+        padding-top: 50px;
+        width: 14%;
+        background: url(../img/list/egg-close.jpg) no-repeat;
+        background-size: contain;
+        float: left;
+        margin: 2%;
+    }
+    .page-body .list-input .list-title{
+        padding: 6px 12px;
+        margin-left: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 94%;
+        background: #ffff67;
+        border:6px #fdd301 solid;
+        margin-bottom: -18px;
+    }
+    .btn-input-close {
+        opacity: .4;
+        float: right;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        position: relative;
+        top: -16px;
+        right: 26px;
+    }
+    .page-body .list-input {
+        margin-top: 0px;
+    }
+    .egg-red, .egg-orange, .egg-blue, .egg-green{
+        font-size: 34px;
+        float: left;
+        margin-left: 0;
+    }
+    .all-page{
+        margin-left: 4px;
+        margin-bottom: 80px;
+    }
+    .list-main{
+        margin-top: 20px;
+    }
+    .search-no-finish,.search-finish,.search-refresh{
+        font-size: 22px;
+        float: left;
+        margin-left: 1%;
+        margin-top: 7px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .click-picture-tip {
+        position: absolute;
+        left: 140px;
+        top: 9%;
+        font-size: 24px;
+        transform: rotate(-20deg);
+
+    }
+    .list-search-time{
+        float: left;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 3px;
+        border: 0;
+        background: #4CAB5A;
+        width: 20%;
+        color: #fff;
+    }
+    .start-time{
+        margin-left: 6px;
+    }
+    .end-time{
+        margin-left: 3px;
+    }
+    .do-start-time{
+        margin-left: 5%;
+    }
+    .do-end-time{
+        margin-left: 3px;
+    }
+    .btn-go{
+        float: left;
+        width: 8%;
+        margin-top: 10px;
+        margin-left: 4px;
+        padding: 2px 0;
+        background: #4CAB5A;
+    }
+    .page-body .list-input .list-inp {
+        float: left;
+        width: 76%;
+    }
+}
+
+/*中偏小屏手机*/
+@media screen and (max-width: 287px) and (min-width: 253px){
+    .imgAnimation{
+        animation-name: imgAnimation;
+        animation: imgAnimation 2s ease;
+        -webkit-animation: imgAnimation 2s ease;
+        -moz-animation: imgAnimation 2s ease;
+    }
+
+    @-webkit-keyframes imgAnimation {
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+
+    @-moz-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+    .click-picture-tip .tip-d {
+        position: relative;
+        font-size: 20px;
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+        color: #000;
+        background-color: #ffd700;
+        border-radius:7px;
+        padding: 10px;
+    }
+    .left_triangle{
+        height:0px;
+        width:0px;
+        border-width:10px;
+        border-style:solid;
+        border-color:transparent  #FFD700 transparent transparent ;
+        position: absolute;
+        left: -19px;
+        top:3px;
+    }
+    .page-body .click-picture{
+        background : url(../img/list/hen.png) no-repeat;
+        background-size: contain;
+        width: 34%;
+        height: 130px;
+        margin-left: 10px;
+
+    }
+    .page-body .list-input .list-pic{
+        padding-top: 50px;
+        width: 14%;
+        background: url(../img/list/egg-close.jpg) no-repeat;
+        background-size: contain;
+        float: left;
+        margin: 2%;
+    }
+    .page-body .list-input .list-title{
+        padding: 6px 12px;
+        margin-left: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 94%;
+        background: #ffff67;
+        border:6px #fdd301 solid;
+        margin-bottom: -18px;
+    }
+    .btn-input-close {
+        opacity: .4;
+        float: right;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        position: relative;
+        top: -16px;
+        right: 26px;
+    }
+    .page-body .list-input {
+        margin-top: 0px;
+    }
+    .egg-red, .egg-orange, .egg-blue, .egg-green{
+        font-size: 34px;
+        float: left;
+        margin-left: 0;
+    }
+    .all-page{
+        margin-left: 4px;
+        margin-bottom: 80px;
+    }
+    .list-main{
+        margin-top: 20px;
+    }
+    .search-no-finish,.search-finish,.search-refresh{
+        font-size: 22px;
+        float: left;
+        margin-left: 4%;
+        margin-top: 7px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .click-picture-tip {
+        position: absolute;
+        left: 140px;
+        top: 9%;
+        font-size: 24px;
+        transform: rotate(-20deg);
+
+    }
+    .list-search-time{
+        float: left;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 3px;
+        border: 0;
+        background: #4CAB5A;
+        width: 20%;
+        color: #fff;
+    }
+    .start-time{
+        margin-left: 6px;
+    }
+    .end-time{
+        margin-left: 3px;
+    }
+    .do-start-time{
+        margin-left: 5%;
+    }
+    .do-end-time{
+        margin-left: 3px;
+    }
+    .btn-go{
+        float: left;
+        width: 8%;
+        margin-top: 10px;
+        margin-left: 4px;
+        padding: 2px 0;
+        background: #4CAB5A;
+    }
+}
+/*iphone 5*/
+@media screen and (max-width: 365px) and (min-width: 287px){
+    .imgAnimation{
+        animation-name: imgAnimation;
+        animation: imgAnimation 2s ease;
+        -webkit-animation: imgAnimation 2s ease;
+        -moz-animation: imgAnimation 2s ease;
+    }
+
+    @-webkit-keyframes imgAnimation {
+
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+
+    @-moz-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 140px;}
+    }
+    .click-picture-tip .tip-d {
+        position: relative;
+        font-size: 20px;
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+        color: #000;
+        background-color: #ffd700;
+        border-radius:7px;
+        padding: 10px;
+    }
+    .left_triangle{
+        height:0px;
+        width:0px;
+        border-width:10px;
+        border-style:solid;
+        border-color:transparent  #FFD700 transparent transparent ;
+        position: absolute;
+        left: -19px;
+        top:3px;
+    }
+    .page-body .click-picture{
+        background : url(../img/list/hen.png) no-repeat;
+        background-size: contain;
+        width: 34%;
+        height: 130px;
+        margin-left: 10px;
+
+    }
+    .page-body .list-input .list-pic{
+        padding-top: 50px;
+        width: 14%;
+        background: url(../img/list/egg-close.jpg) no-repeat;
+        background-size: contain;
+        float: left;
+        margin: 2%;
+    }
+    .page-body .list-input .list-title{
+        padding: 6px 12px;
+        margin-left: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 94%;
+        background: #ffff67;
+        border:6px #fdd301 solid;
+        margin-bottom: -18px;
+    }
+    .btn-input-close {
+        opacity: .4;
+        float: right;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        position: relative;
+        top: -16px;
+        right: 26px;
+    }
+    .page-body .list-input {
+        margin-top: 0px;
+    }
+    .egg-red, .egg-orange, .egg-blue, .egg-green{
+        font-size: 34px;
+        float: left;
+        margin-left: 3%;
+    }
+    .all-page{
+        margin-left: 4px;
+        margin-bottom: 80px;
+    }
+    .list-main{
+        margin-top: 2px;
+    }
+    .search-no-finish,.search-finish,.search-refresh{
+        font-size: 22px;
+        float: left;
+        margin-left: 4%;
+        margin-top: 7px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .click-picture-tip {
+        position: absolute;
+        left: 140px;
+        top: 9%;
+        font-size: 24px;
+        transform: rotate(-20deg);
+
+    }
+    .list-search-time{
+        float: left;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 3px;
+        border: 0;
+        background: #4CAB5A;
+        width: 20%;
+        color: #fff;
+    }
+    .start-time{
+        margin-left: 6px;
+    }
+    .end-time{
+        margin-left: 3px;
+    }
+    .do-start-time{
+        margin-left: 5%;
+    }
+    .do-end-time{
+        margin-left: 3px;
+    }
+    .btn-go{
+        float: left;
+        width: 8%;
+        margin-top: 10px;
+        margin-left: 4px;
+        padding: 2px 0;
+        background: #4CAB5A;
+    }
+    .portlet-buttom .icon-egg{
+        margin-left: 2%;
+    }
+    .egg-tip {
+        margin-left: -57%;
+    }
+    .page-body .list-input .list-inp{
+        float:left;
+        width:80%;
+        margin-top: 2%;
+    }
+}
+/*iphone 6*/
+@media screen and (min-width: 365px) and (max-width: 456px){
+    .imgAnimation{
+        animation-name: imgAnimation;
+        animation: imgAnimation 2s ease;
+        -webkit-animation: imgAnimation 2s ease;
+        -moz-animation: imgAnimation 2s ease;
+    }
+
+    @-webkit-keyframes imgAnimation{
+
+        0%{ left: -198px}
+        100%{ left: 200px;}
+    }
+
+    @-moz-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 200px;}
+    }
+    .click-picture-tip .tip-d {
+        position: relative;
+        font-size: 26px;
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+        color: #000;
+        background-color: #ffd700;
+        border-radius:7px;
+        padding: 10px;
+    }
+    .left_triangle{
+        height: 0px;
+        width: 0px;
+        border-width: 12px;
+        border-style: solid;
+        border-color: transparent #FFD700 transparent transparent;
+        position: absolute;
+        left: -23px;
+        top: 13px;
+    }
+    .page-body .click-picture{
+        background : url(../img/list/hen.png) no-repeat;
+        background-size: contain;
+        width: 40%;
+        height: 200px;
+        margin-left: 10px;
+    }
+    .page-body .list-input .list-pic{
+        padding-top: 60px;
+        width: 14%;
+        background: url(../img/list/egg-close.jpg) no-repeat;
+        background-size: contain;
+        float: left;
+        margin-left: 2%;
+    }
+    .page-body .list-input .list-title{
+        padding: 6px 12px;
+        margin-left: 4px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 94%;
+        background: #ffff67;
+        border:6px #fdd301 solid;
+        margin-bottom: -18px;
+    }
+    .btn-input-close{
+        opacity: .4;
+        float: right;
+        font-size: 18px;
+        font-weight: 300;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        position: relative;
+        top: -22px;
+        right: 34px;
+    }
+    .page-body .list-input{
+        margin-top:20px;
+    }
+    .egg-red, .egg-orange, .egg-blue, .egg-green{
+        font-size: 45px;
+        float: left;
+        margin-left: 3%;
+    }
+    .all-page{
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    .list-main{
+        margin-top: -13px;
+    }
+    .search-no-finish,.search-finish,.search-refresh{
+        font-size: 30px;
+        float: left;
+        margin-left: 3%;
+        margin-top: 8px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .click-picture-tip{
+        position: absolute;
+        left: 200px;
+        top: 9%;
+        font-size:38px;
+        transform: rotate(-20deg);
+
+    }
+    .list-search-time{
+        float: left;
+        margin-top: 10px;
+        padding: 5px;
+        border: 0;
+        background: #4CAB5A;
+        width: 19.4%;
+        color: #fff;
+    }
+    .start-time{
+        margin-left: 10px;
+    }
+    .end-time{
+        margin-left: 3px;
+    }
+    .do-start-time{
+        margin-left: 7%;
+    }
+    .do-end-time{
+        margin-left: 3px;
+    }
+    .btn-go,.btn-do-go{
+        float: left;
+        width: 8%;
+        margin-top: 10px;
+        margin-left: 4px;
+        padding: 5px 0;
+        background: #4CAB5A;
+    }
+    .portlet-buttom .icon-egg{
+        margin-left: 15%;
+    }
+    .egg-tip{
+        margin-left: -118%;
+    }
+    .page-body .list-input .list-inp{
+        float:left;
+        width:80%;
+    }
+}
+/*大屏手机*/
+@media screen and (min-width: 456px) and (max-width: 1600px){
+    .imgAnimation{
+        animation-name: imgAnimation;
+        animation: imgAnimation 2s ease;
+        -webkit-animation: imgAnimation 2s ease;
+        -moz-animation: imgAnimation 2s ease;
+    }
+
+    @-webkit-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 200px;}
+    }
+
+    @-moz-keyframes imgAnimation{
+        0%{ left: -198px}
+        100%{ left: 200px;}
+    }
+    .click-picture-tip .tip-d {
+        position: relative;
+        font-size: 26px;
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+        color: #000;
+        background-color: #ffd700;
+        border-radius:7px;
+        padding: 10px;
+    }
+    .left_triangle{
+        height: 0px;
+        width: 0px;
+        border-width: 12px;
+        border-style: solid;
+        border-color: transparent #FFD700 transparent transparent;
+        position: absolute;
+        left: -23px;
+        top: 13px;
+    }
+    .page-body .click-picture{
+        background : url(../img/list/hen.png) no-repeat;
+        background-size: contain;
+        width: 40%;
+        height: 200px;
+        margin-left: 10px;
+    }
+    .page-body .list-input .list-pic{
+        padding-top: 60px;
+        width: 14%;
+        background: url(../img/list/egg-close.jpg) no-repeat;
+        background-size: contain;
+        float: left;
+        margin-left: 2%;
+    }
+    .page-body .list-input .list-title{
+        padding: 6px 12px;
+        margin-left: 4px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 94%;
+        background: #ffff67;
+        border:6px #fdd301 solid;
+        margin-bottom: -18px;
+    }
+    .btn-input-close{
+        opacity: .4;
+        float: right;
+        font-size: 18px;
+        font-weight: 300;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        position: relative;
+        top: 24px;
+        right: 34px;
+    }
+    .page-body .list-input{
+        margin-top:20px;
+    }
+    .egg-red, .egg-orange, .egg-blue, .egg-green{
+        font-size: 45px;
+        float: left;
+        margin-left: 4%;
+    }
+    .all-page{
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    .list-main{
+        margin-top: 29px;
+    }
+    .search-no-finish,.search-finish,.search-refresh{
+        font-size: 30px;
+        float: left;
+        margin-left: 8%;
+        margin-top: 8px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .click-picture-tip{
+        position: absolute;
+        left: 200px;
+        top: 9%;
+        font-size:38px;
+        transform: rotate(-20deg);
+
+    }
+    .list-search-time{
+        float: left;
+        margin-top: 10px;
+        padding: 5px;
+        border: 0;
+        background: #4CAB5A;
+        width: 19.4%;
+        color: #fff;
+    }
+    .start-time{
+        margin-left: 10px;
+    }
+    .end-time{
+        margin-left: 3px;
+    }
+    .do-start-time{
+        margin-left: 7%;
+    }
+    .do-end-time{
+        margin-left: 3px;
+    }
+    .btn-go,.btn-do-go{
+        float: left;
+        width: 8%;
+        margin-top: 10px;
+        margin-left: 4px;
+        padding: 5px 0;
+        background: #4CAB5A;
+    }
+}
+.search-category{
+    background: #4CAB5A;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 96%;
+    color: #fff;
+    font-size: 10px;
+    height: 50%
+}
+.list-search-btn{
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.list-search-egg{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    background: #F0A227;
+}
+.num,.current{
+    margin-left: 5px;
+}
+.modal-box-btn{
+    color:#fff;
+}
+.modal-box-title {
+    color: #F0A227;
+}
+.blue{
+    color:#32A1CE;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+}
+.event-tip{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 8px;
+}
+.event-scoll{
+    width: 82%;
+    margin-left: 10px;
+}

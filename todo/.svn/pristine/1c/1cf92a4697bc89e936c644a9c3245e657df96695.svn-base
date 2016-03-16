@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.notes-add img {
+    position: fixed;
+    width: 80px;
+    bottom: 14px;
+    left: 20px;
+}
+.notes {
+    margin-top: 50px;
+    margin-left: 2px;
+    color: #000;
+    padding-bottom: 130px;
+}
+/*iphone 5*/
+@media screen and (max-width: 320px){
+    .paper1 {
+        /*min-height: 150px;*/
+        width: 50%;
+    }
+    .paper2 {
+        width: 50%;
+    }
+    .paper3 {
+        min-height: 150px;
+    }
+    .paper4{
+        min-height: 150px;
+    }
+    .paper1 p {
+        padding: 50px 10px 10px 10px;
+    }
+    .paper2 p {
+        padding: 46px 20px 10px 23px;
+    }
+    .paper3 p{
+        padding: 76px 10px 10px 10px;
+
+    }
+    .paper4 p {
+        padding: 28px 15px;
+    }
+}
+/*iphone 6*/
+@media screen and (min-width: 321px) and (max-width: 1600px) {
+    .paper1 {
+       min-height: 230px;
+       min-width: 200px;
+    }
+    .paper2 {
+        min-height: 230px;
+        min-width: 200px;
+        margin-left: -20px;
+        margin-top: 16px;
+    }
+    .paper3 {
+        min-height: 230px;
+        min-width: 200px;
+    }
+    .paper4{
+        min-height: 210px;
+        min-width: 200px;
+        margin-top: 20px;
+    }
+    .paper1 p {
+        padding: 50px 10px 10px 10px;
+    }
+    .paper2 p {
+        padding: 46px 20px 10px 23px;
+    }
+    .paper3 p{
+        padding: 76px 10px 10px 10px;
+
+    }
+    .paper4 p {
+        padding: 28px 15px;
+    }
+
+}
+.note {
+    margin-left: 5px;
+}
+pre {
+    background-color: transparent;
+}
+.yellow1 {
+    background: url('../img/backwards/paper1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.red1 {
+    background: url('../img/backwards/paper1r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.blue1 {
+    background: url('../img/backwards/paper1b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.green1 {
+    background: url('../img/backwards/paper1g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.yellow2 {
+    background: url('../img/backwards/paper2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.red2 {
+    background: url('../img/backwards/paper2r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.blue2 {
+    background: url('../img/backwards/paper2b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.green2 {
+    background: url('../img/backwards/paper2g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.yellow3 {
+    background: url('../img/backwards/paper3.png') no-repeat;
+    background-size: 100% 100%;
+}
+.red3 {
+    background: url('../img/backwards/paper3r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.blue3 {
+    background: url('../img/backwards/paper3b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.green3 {
+    background: url('../img/backwards/paper3g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.yellow4 {
+    background: url('../img/backwards/paper4.png') no-repeat;
+    background-size: 100% 100%;
+}
+.red4 {
+    background: url('../img/backwards/paper4r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.blue4 {
+    background: url('../img/backwards/paper4b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.green4 {
+    background: url('../img/backwards/paper4g.png') no-repeat;
+    background-size: 100% 100%;
+}
+textarea{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    /*outline: none;*/
+}

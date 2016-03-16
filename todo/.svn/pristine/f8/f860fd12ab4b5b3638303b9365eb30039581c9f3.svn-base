@@ -1,0 +1,61 @@
+<!-- author zsy -->
+<extend name="Public:frameset" />
+<block name="style">
+    <link href="__PUBLIC__/assets/pages/styles/todo-statistics.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="page-body">
+    <div class="body">
+        <div class="body-accum">
+            <div class="prop"><strong>累积：孵蛋数 / 下蛋数 | 孵化率</strong></div>
+            <div class="cont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$sum['finish']}&nbsp;&nbsp;&nbsp;{$sum['egg']}&nbsp; &nbsp;&nbsp;{$sum['hatch']*100|round=###,2}%</div>
+        </div>
+        <div class="body-select1">
+            <select>
+                <option value="seven">近7天统计</option>
+                <volist name="year" id="v1">
+                    <option value="{$key}">{$key} 年</option>
+                </volist>
+            </select>
+        </div>
+        <div class="body-table">
+            <table>
+                <tr id="tr1">
+                    <th class="th1">日期&nbsp;</th>
+                    <th class="th2">月份&nbsp;</th>
+                    <th>孵蛋数&nbsp;</th>
+                    <th>/ 下蛋数&nbsp;</th>
+                    <th>| 孵化率</th>
+                </tr>
+                <volist name="week" id="vo">
+                    <tr class="tr1">
+                        <td>&nbsp;{$key}&nbsp;</td>
+                        <td>&nbsp;{$vo['finish']}&nbsp;</td>
+                        <td>&nbsp;&nbsp;{$vo['egg']}&nbsp;</td>
+                        <td>&nbsp;{$vo['hatch']*100|round=###,2} %</td>
+
+                    </tr>
+                </volist>
+                <tr class="sum tr1 sum1">
+                    <td>合计&nbsp;</td>
+                    <td>&nbsp;{$weeksum['finish']}&nbsp;</td>
+                    <td>&nbsp;&nbsp;{$weeksum['egg']}&nbsp;</td>
+                    <td>&nbsp;{$weeksum['hatch']*100|round=###,2}%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</block>
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<block name="script">
+    <script src="__PUBLIC__/assets/pages/scripts/todo-statistics.js" type="text/javascript"></script>
+</block>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<block name="script-init">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            DoStatistics.init();
+        });
+    </script>
+</block>

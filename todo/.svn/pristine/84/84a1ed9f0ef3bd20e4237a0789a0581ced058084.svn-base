@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="__PUBLIC__/assets/pages/img/index/avatar.jpg"/>
+    <title>土豆鸡快</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="author" content="zsy"/>
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link rel="stylesheet" href="__PUBLIC__/assets/global/plugins/bootstrap/css/bootstrap.min.css"/>
+        <link href="__PUBLIC__/assets/global/styles/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="__PUBLIC__/assets/global/styles/style.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+        <link href="__PUBLIC__/assets/global/plugins/icon/style.css" rel="stylesheet" type="text/css"/>
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+
+    <!-- BEGIN PAGE STYLES -->
+        <block name="style"></block>
+    <!-- END PAGE STYLES -->
+</head>
+
+<body>
+
+<!-- BEGIN PAGE-HEADER -->
+<section class="page-header">
+    <a href="#cd-nav" class="cd-nav-trigger">Menu<span><!-- used to create the menu icon --></span>
+    </a>
+    <nav class="cd-nav-container" id="cd-nav">
+        <header>
+            <a href="{:U('Index/index')}"><span>首页</span></a>
+            <empty name="username"><else/><a href="{:U('User/logout')}"><span style="margin-left:30px;">登出</span></a></empty>
+            <a href="#0" class="cd-close-nav">Close</a>
+        </header>
+
+        <ul class="cd-nav">
+            <li class="cd-selected" data-menu="task">
+                <a href="javascript:;">
+                    <i class="glyphicon glyphicon-paperclip i1 i-btn"></i>
+                    <em>土土任务</em>
+                </a>
+            </li>
+
+            <li data-menu="statistics">
+                <a href="javascript:;">
+                    <i class="glyphicon glyphicon-signal i2 i-btn"></i>
+                    <em>豆豆统计</em>
+                </a>
+            </li>
+
+            <li data-menu="calender">
+                <a href="javascript:;">
+                    <i class="glyphicon glyphicon-calendar i3 i-btn"></i>
+                    <em>小鸡日历</em>
+                </a>
+            </li>
+
+            <li data-menu="backward">
+                <a href="javascript:;">
+                    <i class="glyphicon glyphicon-hourglass i4 i-btn"></i>
+                    <em>快快倒数</em>
+                </a>
+            </li>
+
+            <li date-menu="" class="easy">
+                <a href="javascript:;">
+                    <i class="glyphicon glyphicon-list-alt i5 i-btn"></i>
+                    <em>便签</em>
+                </a>
+            </li>
+
+        </ul> <!-- .cd-3d-nav -->
+    </nav>
+</section>
+<!-- END PAGE-HEADER -->
+
+<!-- BEGIN PAGE-BODY -->
+    <section class="page-body">
+        <block name="page-body"></block>
+    </section>
+<!-- END PAGE-BODY -->
+
+<!-- BEGIN CORE PLUGINS -->
+    <script src="__PUBLIC__/assets/global/plugins/jquery-2.1.1.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/global/plugins/modernizr.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/global/plugins/main.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN CORE GLOBAL -->
+    <script src="__PUBLIC__/assets/global/scripts/public.js" type="text/javascript"></script>
+<!-- END CORE GLOBAL -->
+
+<script type="text/javascript">
+    /* GLOBAL URL */
+    var _ROOT_ = '__ROOT__',
+            _PUBLIC_ = '__PUBLIC__',
+            _INDEX_ = '__APP__',
+            _ACTION_ = '__ACTION__',
+            _MODULE_ = '__MODULE__',
+            _CONTROLLER_ = '__CONTROLLER__';
+    window._ROOT_='__ROOT__';
+    window._APP_='__APP__';
+    window._ACTION_='{:U("")}';
+    window._SELF_='{:urldecode("__SELF__")}';
+</script>
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <block name="script"></block>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<block name="script-init"></block>
+
+</body>
+</html>

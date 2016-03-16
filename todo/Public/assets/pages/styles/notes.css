@@ -1,0 +1,254 @@
+@charset "UTF-8";
+div{
+	font-family:"Microsoft Yahei";
+}
+.clear{
+	clear:both;
+}
+
+.main-page-note{
+	width:100%;
+	margin-top:50px;
+}
+.main-page-note .group-note{
+	width:96%;
+	margin:0 auto;
+}
+.main-page-note .group-note .note{
+	width:50%;
+	height:200px;
+	margin:5px 0;
+	padding:25px 5px 0;
+	float:left;
+	position:relative;	
+}
+.main-page-note .group-note .note .note-icon-circle{
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	background:#00b385;
+	position:absolute;
+	top:9px;
+	left:-4px;
+}
+.main-page-note .group-note .note span.note-content{
+	display:inline-block;
+	color:#333;
+	height:128px;
+	line-height:20px;
+	padding:25px 15px 0;
+	text-indent:1em !important;
+	overflow:hidden;
+}
+.main-page-note .group-note .note span.note-time{
+	display:block;
+	width:100%;
+	line-hieght:20px;
+	color:#0000ff;
+	text-align:right;
+	padding-right:20px;
+	position:absolute;
+	bottom:20px;
+}
+
+.main-page-note .group-note .note.paper2 span.note-time{
+	padding-right:30px;
+	bottom:28px;
+}
+.main-page-note .group-note .note.paper4 span.note-time{
+	padding-left:20px;
+	padding-right:0;
+	text-align:left;
+}
+.main-page-note #note-details{
+	display:none;
+	width:80%;
+	min-height:400px;
+	background:#eee;	
+	border-radius:10px;
+	position:absolute;
+	top:50%;
+	left:10%;
+	z-index:2;
+}
+
+.main-page-note #note-details .note-time{
+	color:#666;
+	line-height:40px;
+	text-align:right;
+	font-size:18px;
+	letter-spacing:2px;
+	border-bottom:3px dashed #396;
+	border-radius:10px 10px 0 0;
+	padding-right:20px;
+	
+}
+.main-page-note #note-details .content{
+	width:100%;
+	min-height:300px;	
+	line-height:25px;
+	font-size:16px;
+	color:#666;
+	text-align:justify;
+	text-indent:1em;
+	border:0;
+	outline:0;
+	padding:10px;
+}
+.main-page-note #note-details .note-edit-tool{
+	line-height:60px;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.main-page-note #note-details .note-edit-tool a{
+	text-decoration:none;
+	width:50%;
+	height:35px;
+	line-height:35px;	
+	color:#eee;
+	background:#396;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:4px;
+	float:left;
+}
+.main-page-note #note-details .note-edit-tool a.note-delete{
+	background:#c33;
+}
+.main-page-note #note-details .note-edit-tool a.note-close{
+	background:#363;
+}
+.main-page-note #note-edit{
+	display:none;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.4);	
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:2;
+}
+.main-page-note #note-edit .note-edit-content{
+	width:80%;
+	height:400px;
+	position:absolute;
+	top:50%;
+	margin-top:-200px;
+	left:10%;
+}
+.main-page-note #note-edit  .note-edit-content textarea{
+	width:100%;
+	height:330px;
+	margin:50px 0 0;
+	padding:10% 8% 5px 10px;;
+	background:transparent;
+	color:#333;
+	border:0;
+	outline:0;
+	overflow-y:auto;
+}
+.main-page-note #note-edit .note-edit-tool{
+	width:100%;
+	line-height:50px;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.main-page-note #note-edit .note-edit-tool a{
+	width:20%;
+	height:35px;
+	color:#eee;
+	line-height:35px;
+	text-align:center;
+	float:left;
+}
+.main-page-note #note-edit .note-edit-tool a.note-close{
+	background:#666;
+}
+.main-page-note #note-edit .note-edit-tool a.note-clear{
+	background:#363;
+}
+.main-page-note #note-edit .note-edit-tool a.note-paper-style{
+	width:30%;
+	background:#036;
+}
+.main-page-note #note-edit .note-edit-tool a.note-add{
+	width:30%;
+	background:#c33;
+}
+.notes-add img {
+    position: fixed;
+    width: 80px;
+    bottom: 14px;
+    left: 20px;
+}
+.paper1,
+.paper1.yellow{
+    background: url('../img/backwards/paper1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper1.red{
+    background: url('../img/backwards/paper1r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper1.blue{
+    background: url('../img/backwards/paper1b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper1.green {
+    background: url('../img/backwards/paper1g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper2,
+.paper2.yellow {
+    background: url('../img/backwards/paper2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper2.red {
+    background: url('../img/backwards/paper2r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper2.blue {
+    background: url('../img/backwards/paper2b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper2.green {
+    background: url('../img/backwards/paper2g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper3,
+.paper3.yellow {
+    background: url('../img/backwards/paper3.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper3.red {
+    background: url('../img/backwards/paper3r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper3.blue {
+    background: url('../img/backwards/paper3b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper3.green {
+    background: url('../img/backwards/paper3g.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper4,
+.paper4.yellow {
+    background: url('../img/backwards/paper4.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper4.red {
+    background: url('../img/backwards/paper4r.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper4.blue {
+    background: url('../img/backwards/paper4b.png') no-repeat;
+    background-size: 100% 100%;
+}
+.paper4.green {
+    background: url('../img/backwards/paper4g.png') no-repeat;
+    background-size: 100% 100%;
+}

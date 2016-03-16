@@ -1,0 +1,1195 @@
+[ 2016-01-27T15:16:06+08:00 ] ::1 /todo-11-18/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014453s ]
+
+[ 2016-01-27T15:16:13+08:00 ] ::1 /todo-11-18/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-01-27T15:16:15+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-01-27T15:16:15+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-01-27T15:16:26+08:00 ] ::1 /todo-11-18/index.php/Home/User/ajax_deal_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:3.2094s ]
+SQL: SELECT * FROM `td_user` WHERE `status` = 1 AND `user_no` = '123' LIMIT 1   [ RunTime:0.1078s ]
+
+[ 2016-01-27T15:16:26+08:00 ] ::1 /todo-11-18/index.php/Home/User/ajax_deal_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:0.0955s ]
+SQL: SELECT * FROM `td_user` WHERE `status` = 1 AND `user_no` = '123' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-01-27T15:16:26+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-01-27T15:16:26+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-01-27T15:16:29+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.3091s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.3514s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0939s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965389 AND `do_time` >= 1453792589  ) ) ORDER BY create_time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-01-27T15:16:30+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0278s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-01-27T15:16:35+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-01-27T15:16:36+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0079s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '1' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0610s ]
+
+[ 2016-01-27T15:16:37+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0071s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '2' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 2 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-01-27T15:16:38+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0077s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '3' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 3 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-01-27T15:16:38+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0077s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '4' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 4 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-01-27T15:16:40+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_fin_lev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0079s ]
+NOTIC: [2] Missing argument 3 for Home\Model\DetailsModel::get_details_fin_level(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 169 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 201 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 211 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND d.level_id = '4' AND d.is_finished = '1' AND `user_id` = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `level_id` = 4 AND `is_finished` = 1 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-01-27T15:16:40+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0329s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:16:41+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:16:41+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0073s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:16:41+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0315s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:16:42+08:00 ] ::1 /todo-11-18/index.php/Home/detail/get_detail_id?id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `td_details` WHERE `status` = 1 AND `id` = 40 AND `user_id` = 2  [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:16:53+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0093s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965413 AND `do_time` >= 1453792613  ) ) ORDER BY create_time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002506s ]
+
+[ 2016-01-27T15:16:54+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0095s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0369s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-01-27T15:16:58+08:00 ] ::1 /todo-11-18/index.php/Home/Statistics/statistics
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0103s ]
+SQL: SELECT `create_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `create_time` BETWEEN 1453219200 AND 1453824000 GROUP BY create_time ORDER BY create_time desc  [ RunTime:0.0935s ]
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: date1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 27 行.
+SQL: SELECT `create_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 GROUP BY create_time ORDER BY create_time desc  [ RunTime:0.0273s ]
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 2 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 3 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 4 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 5 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 6 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 7 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 8 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 9 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 1 AND `create_time` BETWEEN 1443628800 AND 1446307200 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `create_time` BETWEEN 1443628800 AND 1446307200 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 1 AND `create_time` BETWEEN 1446307200 AND 1448899200 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `create_time` BETWEEN 1446307200 AND 1448899200 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 12 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: finish G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 43 行.
+NOTIC: [8] Undefined index: egg G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 44 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 45 行.
+NOTIC: [8] Undefined index: finish G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 50 行.
+NOTIC: [8] Undefined index: egg G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 51 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-01-27T15:17:01+08:00 ] ::1 /todo-11-18/index.php/Home/Statistics/ajax_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0076s ]
+SQL: SELECT `create_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 GROUP BY create_time ORDER BY create_time desc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 2 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 3 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 4 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 5 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 6 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 7 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 8 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 9 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 1 AND `create_time` BETWEEN 1443628800 AND 1446307200 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `create_time` BETWEEN 1443628800 AND 1446307200 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 1 AND `create_time` BETWEEN 1446307200 AND 1448899200 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `create_time` BETWEEN 1446307200 AND 1448899200 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 12 G:\wamp\www\todo-11-18\Application\Home\Model\StatisticsModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: finish G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 28 行.
+NOTIC: [8] Undefined index: egg G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 29 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+NOTIC: [2] Division by zero G:\wamp\www\todo-11-18\Application\Home\Controller\StatisticsController.class.php 第 30 行.
+
+[ 2016-01-27T15:17:05+08:00 ] ::1 /todo-11-18/index.php/Home/List/backwards
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `td_backwards` [ RunTime:1.8981s ]
+SQL: SELECT * FROM `td_backwards` WHERE `status` = 1 AND `deadline` > 1453879025 ORDER BY deadline asc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `td_backwards` WHERE `status` = 1 AND `deadline` > 1453879025 ORDER BY deadline asc LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: v G:\wamp\www\todo-11-18\Application\Home\Model\BackwardsModel.class.php 第 29 行.
+SQL: SELECT * FROM `td_backwards` WHERE `status` = 1 AND `deadline` > 1453879025 ORDER BY deadline asc LIMIT 1   [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] A non well formed numeric value encountered G:\wamp\www\todo-11-18\Runtime\Cache\Home\f63ccd4b1671ed98ce452766c5b52cad.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-01-27T15:17:08+08:00 ] ::1 /todo-11-18/index.php/Home/List/ajax_get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `td_backwards` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `td_backwards` WHERE `status` > 0 AND `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-01-27T15:17:11+08:00 ] ::1 /todo-11-18/index.php/Home/Calendar/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-01-27T15:17:12+08:00 ] ::1 /todo-11-18/index.php/Home/Calendar/ajax_AllEvent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0091s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\CalendarController.class.php on line 25 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\CalendarController.class.php on line 25 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0099s ]
+
+[ 2016-01-27T15:17:14+08:00 ] ::1 /todo-11-18/index.php/Home/Calendar/ajax_AllEvent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0390s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\CalendarController.class.php on line 25 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\CalendarController.class.php on line 25 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0073s ]
+
+[ 2016-01-27T15:17:18+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0075s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965438 AND `do_time` >= 1453792638  ) ) ORDER BY create_time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2016-01-27T15:17:18+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0546s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-01-27T15:17:20+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0081s ]
+NOTIC: [2] Missing argument 6 for Home\Model\DetailsModel::get_details_time(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 154 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 160 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 190 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND `user_id` = '2' AND (  d.create_time > 0 AND d.do_time > 0 AND d.category_id = '2' ) ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND (  `create_time` > 0 AND `do_time` > 0 AND `category_id` = '2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-01-27T15:17:22+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0079s ]
+NOTIC: [2] Missing argument 6 for Home\Model\DetailsModel::get_details_time(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 154 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 160 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 190 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND `user_id` = '2' AND (  d.create_time > 0 AND d.do_time > 0 AND d.category_id = '3' ) ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND (  `create_time` > 0 AND `do_time` > 0 AND `category_id` = '3' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-01-27T15:17:23+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0084s ]
+NOTIC: [2] Missing argument 6 for Home\Model\DetailsModel::get_details_time(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 154 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 160 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 190 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND `user_id` = '2' AND (  d.create_time > 0 AND d.do_time > 0 AND d.category_id > 0 ) ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND (  `create_time` > 0 AND `do_time` > 0 AND `category_id` > 0 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-01-27T15:17:24+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 6 for Home\Model\DetailsModel::get_details_time(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 154 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 160 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 190 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND `user_id` = '2' AND (  d.create_time > 0 AND d.do_time > 0 AND d.category_id = '1' ) ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND (  `create_time` > 0 AND `do_time` > 0 AND `category_id` = '1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:17:28+08:00 ] ::1 /todo-11-18/index.php/Home/detail/get_detail_id?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `td_details` WHERE `status` = 1 AND `id` = 36 AND `user_id` = 2  [ RunTime:0.0008s ]
+
+[ 2016-01-27T15:17:33+08:00 ] ::1 /todo-11-18/index.php/Home/detail/ajax_update_event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0071s ]
+SQL: UPDATE `td_details` SET `title`='jjjjjjjjjj',`category_id`='2',`content`='jjjjjjjjjj',`level_id`='4',`do_time`='1446733727',`create_time`='1446733701',`status`='1' WHERE `id` = 36 AND `user_id` = 2 [ RunTime:0.2975s ]
+
+[ 2016-01-27T15:17:34+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0083s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-01-27T15:17:37+08:00 ] ::1 /todo-11-18/index.php/Home/detail/get_detail_id?id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `td_details` WHERE `status` = 1 AND `id` = 40 AND `user_id` = 2  [ RunTime:0.0013s ]
+
+[ 2016-01-27T15:17:39+08:00 ] ::1 /todo-11-18/index.php/Home/detail/ajax_update_event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0066s ]
+SQL: UPDATE `td_details` SET `title`='啊飒飒大师大师的',`category_id`='2',`content`='啊飒飒大师大师的',`level_id`='1',`do_time`='1447912036',`create_time`='1447912025',`status`='1' WHERE `id` = 40 AND `user_id` = 2 [ RunTime:0.2008s ]
+
+[ 2016-01-27T15:17:41+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0545s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-01-27T15:17:41+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0089s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-01-27T15:17:43+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965463 AND `do_time` >= 1453792663  ) ) ORDER BY create_time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005523s ]
+
+[ 2016-01-27T15:17:44+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-01-27T15:17:45+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0091s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '1' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-01-27T15:17:46+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0076s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '1' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-01-27T15:17:47+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_fin_lev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0738s ]
+NOTIC: [2] Missing argument 3 for Home\Model\DetailsModel::get_details_fin_level(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 169 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 201 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 211 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND d.level_id = '1' AND d.is_finished = '0' AND `user_id` = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `level_id` = 1 AND `is_finished` = 0 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-01-27T15:17:48+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_fin_lev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0074s ]
+NOTIC: [2] Missing argument 3 for Home\Model\DetailsModel::get_details_fin_level(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 169 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 201 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 211 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND d.level_id = '1' AND d.is_finished = '1' AND `user_id` = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `level_id` = 1 AND `is_finished` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-01-27T15:17:50+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0082s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-01-27T15:17:51+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0071s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '3' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 3 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-01-27T15:17:52+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_level
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0082s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id = '4' AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `level_id` = 4 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-01-27T15:17:52+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-01-27T15:17:58+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0077s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965478 AND `do_time` >= 1453792678  ) ) ORDER BY create_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2016-01-27T15:17:59+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-01-27T15:18:05+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0079s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965485 AND `do_time` >= 1453792685  ) ) ORDER BY create_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003481s ]
+
+[ 2016-01-27T15:18:06+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-01-27T15:18:15+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0076s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965495 AND `do_time` >= 1453792695  ) ) ORDER BY create_time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2016-01-27T15:18:16+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0135s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-01-27T15:18:19+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-01-27T15:18:22+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0081s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965502 AND `do_time` >= 1453792702  ) ) ORDER BY create_time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003379s ]
+
+[ 2016-01-27T15:18:23+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-01-27T15:19:23+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965563 AND `do_time` >= 1453792763  ) ) ORDER BY create_time desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002138s ]
+
+[ 2016-01-27T15:19:23+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-01-27T15:19:28+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0109s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965568 AND `do_time` >= 1453792768  ) ) ORDER BY create_time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004407s ]
+
+[ 2016-01-27T15:19:29+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0107s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-01-27T15:19:33+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_change_finished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0068s ]
+SQL: SELECT `content` FROM `td_details` WHERE `id` = 40 AND `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `td_details` SET `is_finished`='1' WHERE `id` = 40 AND `status` = 1 AND `user_id` = 2 [ RunTime:0.5056s ]
+SQL: SELECT `level_id`,`is_finished` FROM `td_details` WHERE `id` = 40 AND `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.1503s ]
+
+[ 2016-01-27T15:22:02+08:00 ] ::1 /todo-11-18/index.php/Home/List/todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0099s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1453965722 AND `do_time` >= 1453792922  ) ) ORDER BY create_time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000825s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-01-27T15:22:03+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0107s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+

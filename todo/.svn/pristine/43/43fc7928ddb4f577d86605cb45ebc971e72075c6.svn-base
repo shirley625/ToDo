@@ -1,0 +1,32 @@
+function delayer(){
+	window.location.href = $.U('User/login');
+}
+$(function(){
+	$('.btn').on('click',function(){
+		event.preventDefault();
+		var username = $('#username').val();
+		var sex = $("input[type='radio']:checked").val();
+		var account = $("#account").val();
+		var password = $("#password").val();
+		var cpassword = $("#cpassword").val();
+		$.post($.U('User/doRegister'),
+			{userName:username,sex:sex,account:account,password:password,
+			cPassWord:cpassword},function(data){
+				console.log(data);
+				if(data.status == -1){
+					$('.tip').html(data.info);
+					$('.tip').delay(1500).hide(0);
+				}else{
+					if(data.status == 0){
+						$('.passwordtip').html(data.info);
+						$('.passwordtip').delay(1500).hide(0);
+					}else{
+						$('.result').html(data.info);
+						$(function(){
+							setTimeout(delayer(),2000);
+						});
+					}
+				}
+		});
+	});
+});

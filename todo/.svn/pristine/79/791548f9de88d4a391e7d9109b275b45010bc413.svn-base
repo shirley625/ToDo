@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'icon';
+	src:url('fonts/icon.eot?-sd5244');
+	src:url('fonts/icon.eot?#iefix-sd5244') format('embedded-opentype'),
+		url('fonts/icon.ttf?-sd5244') format('truetype'),
+		url('fonts/icon.woff?-sd5244') format('woff'),
+		url('fonts/icon.svg?-sd5244#icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-egg:before {
+	content: "\e6c7";
+}
+.icon-eggs:before {
+	content: "\e7cb";
+}
+.icon-time:before {
+	content: "\f017";
+}
+.icon-pen0:before {
+	content: "\f040";
+}
+.icon-pen2:before {
+	content: "\e601";
+}
+.icon-clock:before {
+	content: "\e600";
+}
+.icon-checkmark:before {
+	content: "\e602";
+}
+.icon-checkmark2:before {
+	content: "\e603";
+}
+.icon-pen:before {
+	content: "\e604";
+}

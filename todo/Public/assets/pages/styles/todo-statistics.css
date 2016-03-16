@@ -1,0 +1,50 @@
+.page-body {
+	height: 600px;
+}
+.page-body .body{
+	height: 100%;
+	background-image:url(../img/Statistics/back.jpg);
+	background-size: contain; 
+}
+.page-body .body .body-accum{
+	font-size: 23px;
+	position: absolute;
+	top:10%;
+	left: 5%;
+}
+.page-body .body .body-select1{
+	position: absolute;
+	top:20%;
+	float:left;
+	font-size: 20px;
+}
+.page-body .body .body-select1{
+	left: 5%;
+}
+.page-body .body div select{
+	background-color: #dddddd;
+}
+.page-body .body .body-table { 
+	*border-collapse: collapse; /* IE7 and lower */  
+	border-spacing: 0;  
+	width: 100%;
+	font-size: 20px;
+	position: absolute;
+	top: 27%;
+	padding-left: 5%;
+}
+.page-body .body .body-table table tr th{
+	font-weight:bold;
+	border-bottom: solid 1px;
+	padding-bottom: 1%;
+}
+.page-body .body .body-table table tr td{
+	padding-top: 2%;
+	color: #000000;
+}
+.page-body .body .body-table table tr.sum{
+	border-top: solid 1px;
+	margin-top: 1%;
+}
+
+

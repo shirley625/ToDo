@@ -1,0 +1,94 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class UserController extends BaseController {
+
+	public function _initialize(){
+        parent::_initialize();
+	}
+
+    public function login(){
+        if(!ss_user_name()){
+            $this->display();
+        }else{
+            $this->redirect('Index/index');
+        }
+
+    }
+    public function logout(){
+        session('[destroy]');
+        return $this->success('退出登录',U('User/login'));
+    }
+    public function register(){
+    	$this->display();
+    }
+
+    /*Sameen*/
+    public function ajax_deal_login(){
+        $json = array('status'=>false,'info'=>'','data'=>'');
+        $account = I('account');
+        $key=I('key');
+        $key2 = md5($key);
+        if(!$account){
+            $json['info']='账户不可为空撒！;-)';
+            $this->ajaxReturn($json);
+        }
+        $mUser = D('User');
+        $user=$mUser->checkUserNo($account);
+        if(!$user){
+            $json['info']='该用户不存在捏！(～ o ～)~';
+            $this->ajaxReturn($json);
+        }else{
+            if(!$key){
+                $json['info']='密码不可以为空撒╭(╯^╰)╮！';
+                $json['data']=$user['name'];
+                $this->ajaxReturn($json);
+            }else{
+                if($user['password'] != $key2){
+                    $json['info']='密码错误哦(#‵′)凸！';
+                    $json['data']=$user['name'];
+                    $this->ajaxReturn($json);
+                }else{
+                    $json['status']=true;
+                    $json['info']='登录成功啦！O(∩_∩)O';
+                    $json['data']=ss_user_name();
+                    $this->ajaxReturn($json);
+                }
+            }
+        }
+    }
+
+    public function doRegister(){
+        // $data=$this->create();
+        $data['name'] = I('userName');
+        $data['sex'] = I('sex');
+        $data['user_no'] = I('account');
+        $password = I('password');
+        $data['password'] = md5($password);
+        $data['status'] = 1;
+        $user_no = M('User')->where(array('status'=>1,'user_no'=>$data['user_no']))->find();
+        if($user_no){ //表明数据库中已有这个账号
+            $json['info'] = "很抱歉╮(๑•́₃•̀๑)╭ 这个账号已被注册";
+            $json['data'] = $data;
+            $json['status'] = -1;
+            $this->ajaxReturn($json);
+        }else{
+            if(I('cPassWord') != I('password')){
+                $json['info'] = "您的密码与上次输入的不符哟~";
+                $json['data'] = $data;
+                $json['status'] = 0;
+                $this->ajaxReturn($json);
+            }else{
+                $json['info'] = "恭喜你~注册成功咯~o((>ω< ))o~ 接下来要去登陆咯~";
+                $json['data'] = $data;
+                $json['status'] = 1;
+                $count=M('user')->data($data)
+                    ->field('name,sex,user_no,password,status')
+                    ->add();
+
+                $this->ajaxReturn($json);
+            }
+        }
+    }
+    
+}

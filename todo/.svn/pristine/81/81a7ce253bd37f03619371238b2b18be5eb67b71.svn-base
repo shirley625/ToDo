@@ -1,0 +1,52 @@
+<extend name="Public:frameset" />
+<!-- BEGIN PAGE STYLES -->
+<block name="style">
+	<link href="__PUBLIC__/assets/pages/styles/user.css" rel="stylesheet" type="text/css"/>
+</block>
+<!-- END PAGE STYLES -->
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- BEGIN PAGE-BODY -->
+<block name="page-body">
+	<div class="register-title">
+		<h3>注<img style="width:100px;position: relative; top:6px;" src="__PUBLIC__/assets\pages\img\index\logo.png" alt="logo" />册</h3>
+	</div>
+	<from class="login" method="post" action="">
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon4">姓 &nbsp;&nbsp;&nbsp;名</span><input type="text" class="form-control" aria-describedby="basic-addon4" name="username" id="username"/>
+		</div>
+		<div class="nametip"></div>
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon5">性 &nbsp;&nbsp;&nbsp;别</span>
+			<input type="radio"  aria-describedby="basic-addon5" name="sex" value="男"/>男
+			<input type="radio"  aria-describedby="basic-addon5" name="sex"
+				   value="女"/>女
+		</div>
+
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon1">登 录 账 号</span><input type="text" class="form-control" aria-describedby="basic-addon1" name="account" id="account"/>
+		</div>
+		<div class="notip"></div>
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon2">登 录 密 码</span><input type="password" class="form-control" aria-describedby="basic-addon2" name="password" id="password"/>
+		</div>
+		<div class="passwordtip"></div>
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon3">确 认 密 码</span><input type="password" class="form-control" aria-describedby="basic-addon3" name="cpassword" id="cpassword"/>
+		</div>
+		<div class="cpasswordtip"></div>
+
+		<div class="btn-group" role="group">
+			<button type="submit" class="btn" >注 &nbsp;&nbsp;&nbsp;册 </button>
+		</div>
+		<br>
+		<div class="result"></div>
+	</from>
+
+</block>
+<!-- END PAGE-BODY -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<block name="script">
+	<script type="text/javascript" src="__PUBLIC__/assets/pages/scripts/user.js" charset="gb2312"></script>
+</block>
+

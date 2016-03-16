@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.title_div{
+	width: 250px;
+	height: 100px;
+	margin: 40% auto 3%;
+}
+.title_div .titlel{
+	width: 80px;
+	height: 100px;
+	float: left;
+	background-image: url(../img/index/titlel.jpg);
+	background-size: cover;
+}
+.title_div .titler{
+	width: 170px;
+	height: 100px;
+	float: right;	 
+	background-image: url(../img/index/titler.jpg);
+	background-size: cover;
+}
+.scroll_div{
+	width:160px; height:160px; margin:auto;
+}
+.scroll_div .pic{
+	width:160px; height:160px; 
+	overflow:hidden; /*元素溢出则隐藏*/
+	position:relative; 
+	float:left;
+}
+.scroll_div .pic li{
+	width:160px; height:160px; 
+	position:absolute; 
+	top:0; left:0; 
+	display:none; /*一开始是隐藏的*/
+	background-size: cover; /*让背景图片自适应div*/
+}
+.scroll_div .pic .l{background-image: url(../img/index/left.jpg);}
+.scroll_div .pic .lc{background-image: url(../img/index/leftcenter.jpg);}
+.scroll_div .pic .rc{background-image: url(../img/index/rightcenter.jpg);}
+.scroll_div .pic .r{background-image: url(../img/index/right.jpg);}
+ 
+li {list-style:none;} /*去掉li前面默认的点*/
+
+.logo{
+	width: 50px;
+	height: 50px;
+	float: right;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-size: cover;
+	background-image:url(../img/index/logo.png); 
+}

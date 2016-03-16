@@ -1,0 +1,456 @@
+[ 2016-03-02T23:25:43+08:00 ] ::1 /todo-11-18/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009540s ]
+
+[ 2016-03-02T23:25:47+08:00 ] ::1 /todo-11-18/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-03-02T23:25:50+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+
+[ 2016-03-02T23:25:51+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003361s ]
+
+[ 2016-03-02T23:25:57+08:00 ] ::1 /todo-11-18/index.php/Home/User/ajax_deal_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:0.1441s ]
+SQL: SELECT * FROM `td_user` WHERE `status` = 1 AND `user_no` = '123' LIMIT 1   [ RunTime:0.0217s ]
+
+[ 2016-03-02T23:25:57+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2016-03-02T23:26:00+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.1195s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0209s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 AND `is_finished` = 0 AND (  ( `do_time` <= 1457018760 AND `do_time` >= 1456845960  ) ) ORDER BY create_time desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2016-03-02T23:26:02+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0074s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-02T23:26:05+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0071s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-02T23:26:06+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_page?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0066s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 5,5   [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-02T23:26:08+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_page?p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0070s ]
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '2' ORDER BY d.create_time desc LIMIT 10,5   [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-02T23:26:11+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_change_finished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0084s ]
+SQL: SELECT `content` FROM `td_details` WHERE `id` = 29 AND `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `td_details` SET `is_finished`='1' WHERE `id` = 29 AND `status` = 1 AND `user_id` = 2 [ RunTime:1.0262s ]
+SQL: SELECT `level_id`,`is_finished` FROM `td_details` WHERE `id` = 29 AND `status` = 1 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-02T23:26:15+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-03-02T23:26:16+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-03-02T23:26:19+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000863s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-03-02T23:26:33+08:00 ] ::1 /todo-11-18/index.php/Home/User/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `td_user` WHERE `status` = 1 AND `user_no` = '112' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:0.0078s ]
+SQL: INSERT INTO `td_user` (`name`,`sex`,`user_no`,`password`,`status`) VALUES ('xzq','男','112','4297f44b13955235245b2497399d7a93','1') [ RunTime:0.7218s ]
+
+[ 2016-03-02T23:26:34+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2016-03-02T23:26:43+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2016-03-02T23:26:46+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-03-02T23:26:46+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-03-02T23:26:50+08:00 ] ::1 /todo-11-18/index.php/Home/User/ajax_deal_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `td_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `td_user` WHERE `status` = 1 AND `user_no` = '112' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-02T23:26:50+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003982s ]
+
+[ 2016-03-02T23:26:53+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=List&a=todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0077s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 17 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '14' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title`,`do_time` FROM `td_details` WHERE `status` = 1 AND `user_id` = 14 AND `is_finished` = 0 AND (  ( `do_time` <= 1457018813 AND `do_time` >= 1456846013  ) ) ORDER BY create_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004106s ]
+
+[ 2016-03-02T23:26:55+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_todo_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0088s ]
+NOTIC: [2] Missing argument 1 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [2] Missing argument 2 for Home\Model\DetailsModel::get_details(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 32 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 7 行.
+NOTIC: [8] Undefined variable: level_id G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 16 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.level_id > 0 AND d.status = 1 AND d.user_id = '14' ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 14 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-02T23:27:00+08:00 ] ::1 /todo-11-18/index.php/Home/list/ajax_search_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `td_details` [ RunTime:0.0082s ]
+NOTIC: [2] Missing argument 6 for Home\Model\DetailsModel::get_details_time(), called in G:\wamp\www\todo-11-18\Application\Home\Controller\ListController.class.php on line 154 and defined G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 160 行.
+NOTIC: [8] Undefined variable: p G:\wamp\www\todo-11-18\Application\Home\Model\DetailsModel.class.php 第 190 行.
+SQL: SELECT d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name FROM td_details d left JOIN td_level AS l ON d.level_id = l.id  WHERE d.status = 1 AND `user_id` = '14' AND (  d.create_time > 0 AND d.do_time > 0 AND d.category_id = '1' ) ORDER BY d.create_time desc LIMIT 0,5   [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_details` WHERE `status` = 1 AND `user_id` = 14 AND (  `create_time` > 0 AND `do_time` > 0 AND `category_id` = '1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-02T23:27:09+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2016-03-02T23:27:11+08:00 ] ::1 /todo-11-18/index.php?m=Home&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+

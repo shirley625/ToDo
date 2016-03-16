@@ -1,0 +1,119 @@
+.portlet  {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+    border: 1px solid #ffd327;
+    position: relative;
+    width: 200px;
+    height: 240px;
+}
+
+.portlet .portlet-title {
+    background-color: #ffd327;
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 30px;
+}
+.portlet-title > .caption{
+    color: #fff;
+    padding:11px 0 9px 2px;
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+}
+h5{
+    margin:0 0 0 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.add-form .form-control{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.red{
+    color:#d84a38;
+}
+.orange{
+    color:#EB7F01;
+}
+.yellow{
+    color:#f7ca18;
+}
+.green{
+    color:#35aa47;
+}
+.chose{
+    width: 20px;
+    height: 20px;
+    background-color:  #cecece;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+.chose > i{
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.portlet-buttom{
+    margin-left: 45%;
+}
+.portlet-buttom i{
+    font-size: 40px;
+}
+.modal-main{
+    border: 1px solid ;
+    border-radius:2px;
+}
+
+/*iphone 5*/
+@media screen and (max-width: 365px) {
+    .portlet-buttom{
+        margin-left: 36%;
+    }
+    .category{
+        width: 68%;
+        margin-left: 1% !important;
+    }
+    .add-form input{
+        width: 68%;
+    }
+    .add-form textarea{
+        margin-left: 73px;
+        margin-top: -10px;
+        margin-bottom: 6px;
+        width:70%;
+        padding: 6px 12px;
+    }
+}
+/*iphone 6*/
+@media screen and (min-width: 365px) and (max-width: 1600px){
+    .portlet-buttom{
+        margin-left: 54%;
+    }
+    .category{
+        width: 78%;
+        margin-left: 1% !important;
+    }
+    .add-form input{
+        width: 78%;
+    }
+    .add-form textarea{
+        margin-left: 73px;
+        margin-top: -10px;
+        margin-bottom: 6px;
+        width:78%;
+        padding: 6px 12px;
+    }
+}

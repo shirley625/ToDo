@@ -1,0 +1,341 @@
+@charset "UTF-8";
+.backwards {
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@-webkit-keyframes myRotate{
+    50%{
+        -webkit-transform: rotateY(-50deg);
+    }
+    100%{
+        -webkit-transform: rotateY(360deg);
+    }
+}
+/*iphone 5*/
+@media screen and (max-width: 321px) {
+    .current-backward {
+        position: relative;
+        margin: auto;
+        top: 8%;
+        width: 220px;
+        height: 220px;
+        background-color: #00b385;
+        border-radius: 50%;
+        padding: 30px;
+        animation: myRotate 1s ease 1s;
+        -webkit-animation: myRotate 1s ease 1s;
+        -ms-animation: myRotate 1s ease 1s;
+        -o-animation: myRotate 1s ease 1s;
+        -moz-animation: myRotate 1s ease 1s;
+    }
+    .current-text {
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+
+    .backward-day {
+        font-size: 60px;
+        color: #fdf58f;
+        text-align: center;
+    }
+    .other-backwards {
+        position: absolute;
+        top: 10%;
+    }
+    .calendar {
+        position: absolute;
+        width: 86px;
+        height: 86px;
+        background: url('../img/backwards/calendar.png') no-repeat;
+        background-size: contain;
+        /*margin-left: 20px;*/
+    }
+    .s-day,
+    .s-text{
+        text-align: center;
+    }
+    .s-day{
+        font-size: 26px;
+        color: #000;
+        margin-top: 24px;
+        font-weight: 800;
+    }
+    .s-text{
+        font-size: 12px;
+        color: #383636;
+        margin-top: 2px;
+        font-weight: 400;
+    }
+    .s-day span{
+        font-size: 1px;
+        background-color: #E63333;
+        padding: 0 2px;
+        font-weight: 500;
+        color: #fff;
+        margin-left: -8px;
+        position: relative;
+        top: -4px;
+    }
+    .ca-container{
+        position:relative;
+        width: 310px;
+        height: 100px;
+        margin: auto;
+    }
+    .ca-item {
+        position: relative;
+        float: left;
+        width: 90px;
+        height: 100%;
+        text-align: center;
+    }
+    .ca-wrapper {
+        width: 88%;
+        height: 100%;
+        position: relative;
+        left: 6%;
+    }
+    .ca-nav span{
+        width:25px;
+        height:38px;
+        background:transparent url('../img/backwards/arrows.png') no-repeat top left;
+        position:absolute;
+        top:23%;
+        left: 0;
+        opacity:0.7;
+        cursor:pointer;
+        z-index: 3;
+    }
+    .ca-nav span.ca-nav-next{
+        background-position:top right;
+        left:auto;
+        right: -4px;
+    }
+    .add-btn img{
+        width: 150px;
+
+    }
+    .add-btn{
+        position: absolute;
+        top: 77%;
+        left: 32%;
+        animation: myRotate 1s ease 1s;
+        -webkit-animation: myRotate 1s ease 1s;
+        -ms-animation: myRotate 1s ease 1s;
+        -o-animation: myRotate 1s ease 1s;
+        -moz-animation: myRotate 1s ease 1s;
+    }
+    .up{
+        margin-top: -10px;
+    }
+    .error-tip{
+         padding: 10px 16px;
+         background-color: #78DA78;
+         color: #ee5f5b;
+         font-size: 16px;
+         font-weight: 500;
+     }
+    .success-tip{
+        padding: 10px 16px;
+        background-color: #3CBB64;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+}
+
+/*iphone 6*/
+@media screen and (min-width: 321px) and (max-width: 1600px) {
+
+
+    .current-backward {
+        position: relative;
+        margin: auto;
+        top: 11%;
+        width: 300px;
+        height: 300px;
+        background-color: #00b385;
+        border-radius: 50%;
+        padding: 40px;
+        animation: myRotate 1s ease 1s;
+        -webkit-animation: myRotate 1s ease 1s;
+        -ms-animation: myRotate 1s ease 1s;
+        -o-animation: myRotate 1s ease 1s;
+        -moz-animation: myRotate 1s ease 1s;
+    }
+
+    .current-text {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .backward-day {
+        font-size: 80px;
+        color: #fdf58f;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .other-backwards {
+        position: relative;
+        top: 14%;
+    }
+
+    .calendar {
+
+        width: 100px;
+        height: 100px;
+        background: url('../img/backwards/calendar.png') no-repeat;
+        background-size: contain;
+    }
+    .s-day,
+    .s-text{
+        text-align: center;
+    }
+    .s-day{
+        font-size: 30px;
+        color: #000;
+        margin-top: 30px;
+        font-weight: 800;
+    }
+    .s-text{
+        font-size: 14px;
+        color: #383636;
+        margin-top: 6px;
+    }
+    .s-day span{
+        font-size: 1px;
+        background-color: #E63333;
+        padding: 0 4px;
+        font-weight: 500;
+        color: #fff;
+        margin-left: -10px;
+        position: relative;
+        top: -4px;
+    }
+    .add-btn{
+        position: absolute;
+        top: 78%;
+        left: 34%;
+        animation: myRotate 1s ease 1s;
+        -webkit-animation: myRotate 1s ease 1s;
+        -ms-animation: myRotate 1s ease 1s;
+        -o-animation: myRotate 1s ease 1s;
+        -moz-animation: myRotate 1s ease 1s;
+    }
+    .add-btn img{
+        width: 150px;
+
+    }
+    .ca-container{
+        position:relative;
+        width: 370px;
+        height: 100px;
+        margin: auto;
+    }
+    .ca-item {
+        position: relative;
+        float: left;
+        width: 106px;
+        height: 100%;
+        text-align: center;
+    }
+    .ca-wrapper {
+        width: 87%;
+        height: 100%;
+        position: relative;
+        left: 5%;
+    }
+    .ca-nav span{
+        width:25px;
+        height:38px;
+        background:transparent url('../img/backwards/arrows.png') no-repeat top left;
+        position:absolute;
+        top:33%;
+        /*margin-top:-19px;*/
+        left: 0px;
+        /*text-indent:-9000px;*/
+        opacity:0.7;
+        cursor:pointer;
+        z-index: 3;
+    }
+    .ca-nav span.ca-nav-next{
+        background-position:top right;
+        left:auto;
+        right: 6px;
+    }
+    .up{
+        margin-top: -40px;
+    }
+    .error-tip {
+        padding: 14px 20px;
+        background-color: #ee5f5b;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .success-tip {
+        padding: 14px 20px;
+        background-color: #3CBB64;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
+
+.ca-nav span:hover{
+    opacity:1.0;
+    -webkit-opacity:1.0;
+    -moz-opacity: 1.0;
+    -o-opacity: 1.0;
+    -ms-opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.ca-item-main {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    overflow: hidden;
+}
+
+.form-control{
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1600px) {
+    .add-btn {
+        position: absolute;
+        top: 84%;
+        left: 34%;
+        animation: myRotate 1s ease 1s;
+        -webkit-animation: myRotate 1s ease 1s;
+        -ms-animation: myRotate 1s ease 1s;
+        -o-animation: myRotate 1s ease 1s;
+        -moz-animation: myRotate 1s ease 1s;
+    }
+    .s-day span {
+        font-size: 8px;
+        background-color: #E63333;
+        padding: 1px 4px;
+        font-weight: 500;
+        color: #fff;
+        margin-left: -8px;
+        position: relative;
+        top: -2px;
+    }
+}

@@ -1,0 +1,240 @@
+<?php
+namespace Home\Model;
+use Think\Model;
+class DetailsModel extends BaseModel {
+
+    //获取内容及数据分页处理 根据level_id
+    public function get_details($level_id, $p){
+        $details = $this->alias('d')
+            ->join('td_level AS l ON d.level_id = l.id','left')
+            ->where(array(
+                'd.level_id' => $level_id ? $level_id : array('gt',0),
+                'd.status' =>array('eq',1),
+                'd.user_id' => ss_user_id()
+            ))
+            ->field('d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name')
+            ->page($p ? $p : 1 , C('INDEX_ARTICLE_NUM'))
+            ->order('d.create_time desc')
+            ->select();
+        foreach($details as &$v){
+            $v['create_time'] = date('Y-m-d H:i:s' , $v['create_time']);
+            $v['do_time'] = date('Y-m-d H:i:s' , $v['do_time']);
+            $v['due_to_time'] = date('Y-m-d H:i:s' , $v['due_to_time']);
+        }
+        return $details;
+    }
+    //获取所有的记录数
+    public function get_all_count(){
+        return $this->where(array(
+            'status' => array('eq',1),
+            'user_id' => ss_user_id()
+        ))->count();
+    }
+    //获取记录数 根据四个时间限制
+    public function get_count_time($start_time, $end_time, $do_start_time, $do_end_time, $category_id){
+        if(!$start_time || !$end_time) {
+            $condition['create_time'] = array('GT',0);
+        }else{
+            $condition['create_time'] = array(
+                array('EGT', $start_time),
+                array('ELT', $end_time)
+            );
+        }
+        if(!$do_start_time || !$do_end_time){
+            $condition['do_time'] = array('GT',0);
+        }else{
+            $condition['do_time'] = array(
+                array('EGT', $do_start_time),
+                array('ELT', $do_end_time)
+            );
+        }
+        if(!$category_id)
+            $condition['category_id'] = array('GT',0);
+        else
+            $condition['category_id'] = $category_id;
+        return $this->where(array(
+            'status' =>array('eq',1),
+            'user_id' => ss_user_id(),
+            $condition
+        ))->count();
+    }
+    //获取记录数 根据level_id , is_finished
+    public function get_count_fin_lev($level_id, $is_finished){
+        return $this->where(array(
+            'status' => array('eq',1),
+            'user_id' => ss_user_id(),
+            'level_id' => $level_id ? $level_id : array('gt',0),
+            'is_finished' => $is_finished
+        ))->count();
+    }
+    //获取记录数 根据level_id
+    public function get_count_level($level_id){
+        return $this->where(array(
+            'status' => array('eq',1),
+            'level_id' => $level_id,
+            'user_id' => ss_user_id(),
+        ))->count();
+    }
+    //查看对应id下的记录中有没有内容
+    public function check_content($id){
+        return $this->where(array(
+            'id' => $id,
+            'status' => 1,
+            'user_id' => ss_user_id()
+        ))->getField('content') ? true : false;
+    }
+    //更新 完成与未完成
+    public function change_finished($id, $is_finished){
+        return $this->where(array(
+            'id' => $id,
+            'status' => 1,
+            'user_id' => ss_user_id()
+        ))->setField(array('is_finished'=>($is_finished+1)%2));
+    }
+    // 得到一条记录 根据id  返回一维数组 [level_id=>'',is_finished=>'']
+    public function change_finished_lev_fin($id){
+        return $this->where(array(
+            'id' => $id,
+            'status' => 1,
+            'user_id' => ss_user_id()
+        ))->field('level_id,is_finished')->find();
+    }
+    //删除某一记录
+    public function del_detail($id, $is_finished){
+        return $this->where(array(
+            'id' => $id,
+            'is_finished' => $is_finished,
+            'status' => 1,
+            'user_id' => ss_user_id()
+        ))->delete() !== false ? true : false;
+    }
+    //得到某一id对应的信息
+    public  function getDetailInfo($id){
+        $detail=$this->where(array(
+                "status" => 1,
+                'id' => $id,
+                'user_id' => ss_user_id(),
+            ))->select();
+        if(!!$detail) {
+            foreach($detail as &$v){
+                $v['create_time'] = date('Y-m-d H:i:s', $v['create_time']);
+                $v['do_time'] = $v['do_time'] ? date('Y-m-d H:i:s', $v['do_time']):null;
+                $v['due_to_time'] = $v['due_to_time'] ? date('Y-m-d H:i:s', $v['due_to_time']):null;
+            }
+        }
+        return $detail;
+    }
+    // 添加
+    public function addEvent($title, $category_id, $content, $level_id, $create_time, $do_time){
+        if($title&&$content){
+            $data['user_id'] = ss_user_id();
+            $data['title'] = $title;
+            $data['category_id'] = $category_id;
+            $data['content'] = $content;
+            $data['create_time'] = strtotime( $create_time );
+            $data['do_time'] = strtotime( $do_time );
+            $data['status'] = 1;
+            $data['level_id'] = $level_id?$level_id:3;
+            $data['is_finished'] = 0;
+            $this->add($data);
+            return true;
+        }
+        else return false;
+    }
+    //更新
+    public function updateEvent($id, $title, $category_id, $content, $level_id, $create_time, $do_time){
+        if( $id && $title && $category_id && $content && $level_id ){
+            $data['title'] = $title;
+            $data['category_id'] = $category_id;
+            $data['content'] = $content;
+            $data['level_id'] = $level_id;
+            $data['do_time'] = strtotime($do_time);
+            $data['create_time'] = strtotime($create_time);
+            $data['status'] = 1;
+            $this->where(array('id'=>$id,'user_id' => ss_user_id()))->save($data);
+            return true;
+        }
+        else return false;
+    }
+    //根据时间获取内容及分页处理
+    public function get_details_time($start_time, $end_time, $do_start_time, $do_end_time, $category_id, $p){
+        if(!$start_time || !$end_time) {
+            $condition['d.create_time'] = array('GT',0);
+        }else{
+            $condition['d.create_time'] = array(
+                array('EGT', $start_time),
+                array('ELT', $end_time)
+            );
+        }
+        if(!$do_start_time || !$do_end_time){
+            $condition['d.do_time'] = array('GT',0);
+        }else{
+            $condition['d.do_time'] = array(
+                array('EGT', $do_start_time),
+                array('ELT', $do_end_time)
+            );
+        }
+        if(!$category_id)
+            $condition['d.category_id'] = array('GT',0);
+        else
+            $condition['d.category_id'] = $category_id;
+
+        $details = $this->alias('d')
+            ->join('td_level AS l ON d.level_id = l.id','left')
+            ->where(array(
+                'd.status' =>array('eq',1),
+                'user_id' => ss_user_id(),
+                $condition
+            ))
+            ->field('d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name')
+            ->page($p ? $p : 1 , C('INDEX_ARTICLE_NUM'))
+            ->order('d.create_time desc')
+            ->select();
+        foreach($details as &$v){
+            $v['create_time'] = date('Y-m-d H:i:s' , $v['create_time']);
+            $v['do_time'] = date('Y-m-d H:i:s' , $v['do_time']);
+            $v['due_to_time'] = date('Y-m-d H:i:s' , $v['due_to_time']);
+        }
+        return $details;
+    }
+    //根据level_id , is_finished获取内容及分页处理
+    public function get_details_fin_level($level_id, $is_finished, $p){
+        $details = $this->alias('d')
+            ->join('td_level AS l ON d.level_id = l.id','left')
+            ->where(array(
+                'd.status' => array('eq',1),
+                'd.level_id' => $level_id ? $level_id : array('gt',0),
+                'd.is_finished' => $is_finished,
+                'user_id' => ss_user_id(),
+            ))
+            ->field('d.id,d.title,d.content,d.user_id,d.level_id,d.is_finished,d.create_time,d.do_time,d.due_to_time,d.status,l.name')
+            ->page($p ? $p : 1 , C('INDEX_ARTICLE_NUM'))
+            ->order('d.create_time desc')
+            ->select();
+        foreach($details as &$v){
+            $v['create_time'] = date('Y-m-d H:i:s' , $v['create_time']);
+            $v['do_time'] = date('Y-m-d H:i:s' , $v['do_time']);
+            $v['due_to_time'] = date('Y-m-d H:i:s' , $v['due_to_time']);
+        }
+        return $details;
+    }
+    //获得过期任务提醒
+    public function get_event_tip(){
+        $tips = "";
+        $condition['do_time'] = array(
+            array('EGT', time() + 24*3600 ),
+            array('ELT', time() + 24*3600*3 )
+        );
+        $details = $this->where(array(
+            "status" => 1,
+            'user_id' => ss_user_id(),
+            $condition
+        ))->order('create_time desc')->field('title, do_time')->select();
+        if(!$details) $tips .= "近期无任务";
+        foreach($details as &$v){
+            $v['do_time'] = date('Y-m-d H:i:s' , $v['do_time']);
+            $tips .= $v['title'].' --- '.$v['do_time'].'&nbsp&nbsp&nbsp&nbsp&nbsp';
+        }
+        return $tips;
+    }
+}

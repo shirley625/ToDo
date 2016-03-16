@@ -1,0 +1,96 @@
+<!-- author zm-->
+<extend name="Public:frameset" />
+<block name="style">
+    <link href="__PUBLIC__/assets/pages/styles/notes.css" rel="stylesheet" type="text/css"/>
+</block>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- BEGIN PAGE-BODY -->
+<block name="page-body">
+    <div class="notes">
+       	<div class="main-page-note">
+       		<div class="group-note">
+	       		<volist name="note" id="vo">
+	       			<div class='note paper{$vo.paper_type} {$vo.color} ' note-id="{$vo.id}" note-paper="{$vo.paper_type}" note-color="{$vo.color}">
+	       				<span class="note-content">{$vo['note']}</span>
+	       				<span class="note-time">{$vo['create_time']|date='Y-m-d',###}</span>
+	       			</div>
+	       		</volist>
+	       		<div class="clear"></div>
+       		</div>
+       		<div id="note-details">
+       			<div class="note-time"><span ></span></div>
+       			<div class="content"></div>
+       			<div class="note-edit-tool">
+       				<a class="note-delete">删除</a>
+       				<a class="note-close">关闭</a>
+       			</div>
+       		</div> 
+       		<div id="note-edit">
+       			<div class="note-edit-content"><textarea></textarea></div>
+       			<div class="note-edit-tool">
+       				<a class="note-close">关闭</a>
+       				<a class="note-clear">清空</a>
+       				<a class="note-paper-style">换肤</a>
+       				<a class="note-add">确定</a>
+      			</div>
+       		</div>
+       		<!-- <div class="group-note">
+       			<div class="note paper3 blue active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       				<span class="note-time">2015-11-18</span>
+       			</div>
+       			<div class="note paper4 green active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       				<span class="note-time">2015-11-17</span>
+       			</div>
+       		</div>
+       		<div class="group-note">
+       			<div class="note paper1 green active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       				<span class="note-time">2015-11-19</span>
+       			</div>
+       			<div class="note paper2 yellow active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       		</div>
+       		<div class="group-note">
+       			<div class="note paper3 yellow active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       			<div class="note paper4 yellow1 active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       		</div>
+       		<div class="group-note">
+       			<div class="note paper1 yellow active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       				<span class="note-time">2015-11-19</span>
+       			</div>
+       			<div class="note paper2 yellow active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       		</div>
+       		<div class="group-note">
+       			<div class="note paper3 yellow active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       			<div class="note paper4 yellow1 active ">
+       				<span class="note-content">经验内容仅供参考，如果您需解决具体问题(尤其法律、医学等领域)，建议您详细咨询相关领域专业人士.</span>
+       			</div>
+       		</div> -->
+       		
+       		
+       	</div>
+        <div class="notes-add"><img src="__PUBLIC__/assets/pages/img/backwards/notes-add.png" alt=""/></div>
+    </div>
+</block>
+<!-- END PAGE-BODY -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<block name="script">
+    <script src="__PUBLIC__/assets/pages/scripts/notes.js" type="text/javascript"></script>
+</block>
+<!-- END PAGE LEVEL SCRIPTS -->
+<block name="script-init">
+
+</block>
